@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:gmail_ui_clone/email_entry.dart';
 
-void main() {
-  runApp(GmailCloneApp());
-}
+void main() => runApp(GmailCloneApp());
 
-/// This widget is the root of our application.
 class GmailCloneApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -47,6 +44,13 @@ class GmailCloneApp extends StatelessWidget {
 
 const SampleEntries = <Widget>[
   EmailEntry(
+    sender: "michezio",
+    object: "Flutter - Gmail UI Clone",
+    message: "Flutter Study Jam 2018",
+    date: "oggi",
+    unread: true,
+  ),
+  EmailEntry(
     sender: "GDG Bari",
     object:
         "Domani: unisciti a 45 Membri per il Meetup \"Flutter Study Jam - App multipiattaforma in tempo record con Flutter\"",
@@ -61,7 +65,7 @@ const SampleEntries = <Widget>[
     message:
         "fino al 26 novembre!Se non leggi correttamente questo questo messaggio, clicca qui",
     date: "21 nov",
-    unread: true,
+    unread: false,
   ),
   EmailEntry(
     sender: "Segreteria Studenti",
@@ -76,7 +80,7 @@ const SampleEntries = <Widget>[
     object: "[SPAM] Convocazione urgente per rinnovo PostePay",
     message: "Gentile Cliente, La informiamo che la sua carta sta per scadere",
     date: "11 nov",
-    unread: true,
+    unread: false,
   ),
   EmailEntry(
     sender: "Godurioso - Mozzarelle & Co.",
@@ -84,14 +88,6 @@ const SampleEntries = <Widget>[
     message:
         "a causa di un malinteso, annulliamo la spedizione a suo carico e le rimborsiamo l'importo",
     date: "5 nov",
-    unread: false,
-  ),
-  EmailEntry(
-    sender: "Alfonsino",
-    object: "Di nuovo?",
-    message:
-        "Mado sta volta mi fai sclerare, la smetti di guardare i porno e rispondi su wazzapp!?",
-    date: "27 ott",
     unread: false,
   ),
   EmailEntry(
@@ -104,16 +100,9 @@ const SampleEntries = <Widget>[
   ),
   EmailEntry(
     sender: "assistenza@paypal.it",
-    object: "Ricevuta del tuo pagamento a Wind Tre S.p.A.",
+    object: "Ricevuta del tuo pagamento a Società a Caso S.p.A.",
     message: "4 ott 2018 22:17:11 CET Codice transazione 6DD29488YYA8K009L",
     date: "4 ott",
-    unread: true,
-  ),
-  EmailEntry(
-    sender: "Alfonsino",
-    object: "DOVE SEI??!!",
-    message: "Oh ma sono ore che ti cerco, ndo stai? vieni su wa!",
-    date: "30 set",
     unread: true,
   ),
   EmailEntry(
@@ -128,7 +117,7 @@ const SampleEntries = <Widget>[
     sender: "Vacanze da Poveri",
     object: "Ancora voglia di estate?",
     message:
-        "Prenota subito il tuo viaggio, Grumo Appula a soli €15.00* con VDP!",
+        "Prenota subito, Montegrosso a soli €15.00* con VDP!",
     date: "16 ago",
     unread: false,
   ),
@@ -137,13 +126,6 @@ const SampleEntries = <Widget>[
     object: "Nuovo accesso a Twitter da Android",
     message: "Abbiamo rilevato un accesso recente al tuo account @michezio_.",
     date: "14 ago",
-    unread: false,
-  ),
-  EmailEntry(
-    sender: "Alfonsino",
-    object: "E quindi te ne vai in vacanza eh?",
-    message: "Divertiti a Rodi Garganico, io mi accontento di Dubai :P",
-    date: "12 ago",
     unread: false,
   ),
   EmailEntry(
