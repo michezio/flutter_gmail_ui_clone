@@ -1,8 +1,5 @@
 # Gmail UI Clone
 
-A static app that mimics the UI of Google Gmail.
+A Flutter app that does nothing but emulating the Gmail UI
 
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+Made for Flutter Study Jam 2018
