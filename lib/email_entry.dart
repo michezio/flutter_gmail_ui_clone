@@ -86,8 +86,8 @@ class EmailEntry extends StatelessWidget {
                                 style: TextStyle(
                                   color: unread ? Colors.blue : notSoBlack,
                                   fontWeight: unread
-                                        ? FontWeight.bold
-                                        : FontWeight.w300,
+                                      ? FontWeight.bold
+                                      : FontWeight.w300,
                                   fontSize: 13,
                                 ),
                               ),
@@ -119,8 +119,7 @@ class EmailEntry extends StatelessWidget {
                                       ),
                                       // MESSAGE
                                       Padding(
-                                        padding:
-                                            EdgeInsets.only(top: 3.0),
+                                        padding: EdgeInsets.only(top: 3.0),
                                         child: Text(
                                           message,
                                           overflow: TextOverflow.ellipsis,

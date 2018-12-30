@@ -116,8 +116,7 @@ const SampleEntries = <Widget>[
   EmailEntry(
     sender: "Vacanze da Poveri",
     object: "Ancora voglia di estate?",
-    message:
-        "Prenota subito, Montegrosso a soli €15.00* con VDP!",
+    message: "Prenota subito, Montegrosso a soli €15.00* con VDP!",
     date: "16 ago",
     unread: false,
   ),
